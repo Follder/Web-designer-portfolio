@@ -1,0 +1,285 @@
+@media (max-width: 1360px) {
+    aside.aside {
+        display: none;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .about {
+        &__wrapper {
+            grid-template-columns: 400px 500px;
+        }
+        &__info {
+            padding: 0 25px 0 0;
+        }
+        &__cards {
+            padding: 0 25px 0 0;
+            gap: 15px;
+        }
+        &-cards__item-descr {
+            width: 180px;
+        }
+    }
+    .exp__wrapper {
+        padding: 60px 25px 0 25px;
+    }
+    .skills__wrapper {
+        grid-template-columns: repeat(3, 270px);
+    }
+    .skills__profit {
+        grid-template-columns: repeat(2,350px);
+        justify-content: center;
+        margin-top: 60px;
+    }
+    .contacts__wrapper {
+        grid-template-columns: 400px 520px;
+    }
+    .contacts__photo {
+        margin: 0;
+    }
+    .contacts__form {
+        grid-template-columns: repeat(2,235px);
+    }
+    .contacts__input {
+        width: 235px;
+    }
+    .contacts__policy {
+        margin-left: 25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 720px;
+    }
+    .about{
+        .title_fz36 {
+            line-height: 45px;
+        }
+        .devider {
+            margin-top: 20px;
+        }
+        &__wrapper {
+            grid-template-columns: 350px 350px;
+        }
+        &__info {
+            padding: 0;
+        }
+        &__descr {
+            font-size: 12px;
+            line-height: 16px;
+        }
+        &__cards {
+            grid-template-columns: 1fr;
+        }
+        &-cards__item-descr {
+            width: 270px
+        }
+    }
+    .exp__wrapper {
+        grid-template-columns: repeat(2,320px);
+    }
+    .skills__wrapper {
+        grid-template-columns: repeat(3, 200px);
+        grid-template-rows: repeat(2, 320px);
+        grid-auto-rows: 320px;
+    }
+    .skills__profit {
+        gap: 15px;
+    }
+    .price__wrapper {
+        grid-template-columns: repeat(2, 330px);
+        margin: 60px 15px 0 15px;
+    }
+    .contacts {
+        &__wrapper {
+            grid-template-columns: 350px 350px;
+        }
+        &__info {
+            margin-right: 0;
+        }
+        &__text {
+            margin-top: 10px;
+        }
+        &__social {
+            margin-top: 10px;
+        }
+        &__form {
+            grid-template-columns: 320px;
+            margin-top: 15px;
+        }
+        &__input {
+            width: 100%;
+        }
+        &__textarea {
+            grid-column: auto;
+            margin-top: 15px;
+        }
+        &__btn {
+            margin-top: 14px;
+            grid-column: auto;
+            grid-template-columns: 1fr;
+            .contacts__policy {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+        }
+    }
+    .mt_15 {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .title_fz48 {
+        font-size: 36px;
+        width: 400px;
+    }
+    .about {
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+        &__photo {
+            max-width: 100%;
+            height: 500px;
+        }
+        &__info {
+            margin-top: 25px;
+        }
+        &__descr {
+            font-size: 14px;
+            line-height: 21px;
+        }
+        &__cards {
+            padding: 0;
+        }
+        &-cards__item-descr {
+            width: calc(100% - 60px);
+        }
+    }
+    .exp__wrapper {
+        grid-template-columns: repeat(2,220px);
+    }
+    .skills__wrapper {
+        grid-template-columns: repeat(2,250px);
+        grid-template-rows: repeat(2, minmax(250px, 1fr));
+        grid-auto-rows: minmax(250px, 1fr)
+    }
+    .skills__profit {
+        grid-template-columns: 320px;
+    }
+    .portfolio__wrapper {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .portfolio__item_vertical,
+    .portfolio__item_horizontal {
+        grid-row: auto;
+        grid-column: auto;
+    }
+    .price__wrapper {
+        grid-template-columns: 330px;
+        justify-content: center;
+        margin: 60px auto 0 auto;
+    }
+    .contacts {
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+        &__photo {
+            max-width: 100%;
+            height: 500px;
+        }
+        &__info {
+            margin-top: 25px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+    .promo {
+        background: url(../img/main_bg.jpg) 59%/cover no-repeat;
+        .hamburger {
+            right: 20px;
+        }
+    }
+
+    .title_fz48 {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 39px;
+        width: 300px;
+    }
+
+    .title_fz36 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    .about {
+        &__wrapper {
+            padding-top: 30px;
+        }
+        &__photo {
+            height: 340px;
+        }
+        .devider {
+            margin-top: 15px;
+        }
+    }
+    .exp {
+        padding-top: 40px;
+        &__wrapper {
+            grid-template-columns: 1fr;
+        }
+    }
+    .skills {
+        padding-top: 40px;
+        &__wrapper {
+            margin-top: 20px;
+            grid-template-columns: 1fr;
+        }
+        &__profit {
+            grid-template-columns: 1fr;
+            margin-top: 40px;
+        }
+        .skills-card__line {
+            width: 300px;
+        }
+    }
+    .portfolio {
+        padding-top: 40px;
+        &__wrapper {
+            margin-top: 40px;
+            grid-template-columns: 1fr;
+        }
+    }
+    .price {
+        padding-top: 40px;
+        &__wrapper {
+            grid-template-columns: 1fr;
+            margin-top: 20px;
+        }
+    }
+    .contacts {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        &__photo {
+            display: none;
+        }
+        &__form {
+            grid-template-columns: 1fr;
+        }
+    }
+    .menu__list {
+        width: 280px;
+    }
+}
