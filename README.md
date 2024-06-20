@@ -1,7 +1,7 @@
 # Langing page "Portfolio"
 
 ## Demo
-For Demo this project you can use [DEMO LINK](https://follder.github.io/landing-page_nothing/)
+For Demo this project you can use [DEMO LINK](https://follder.github.io/landing-page_portfolio/)
 
 ## Project timeline
 
@@ -24,4 +24,4 @@ This educational project was created during the completion of a Frontend Develop
 
 Dmytro Koriahin - [@Dmytro Koriahin](https://github.com/Follder) - [dmytro.koriahin@gmail.com](mailto:dmytro.koriahin@gmail.com)
 
-Project Link: https://follder.github.io/landing-page_nothing/
+Project Link: https://github.com/Follder/landing-page_portfolio
