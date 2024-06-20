@@ -4,8 +4,8 @@
         margin-top: 60px;
         display: grid;
         grid-template-columns: repeat(4, 270px);
-        grid-template-rows: repeat(2, 270px);
-        grid-auto-rows: 270px;
+        grid-template-rows: repeat(2, auto);
+        grid-auto-rows: auto;
         gap: 13px;
         justify-content: center;
     }
@@ -17,7 +17,10 @@
     }
     &-item {
         &__img {
-            height: 65px;
+            height: 50px;
+            & img {
+              height: 100%;
+            }
         }
         &__subtitle {
             margin-top: 20px;

@@ -1,467 +1,814 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portfolio</title>
-    <meta name="title" content="Моє портфоліо">
-    <meta name="description" content="Тут ви можете ознайомитись з моїми роботами та дізнатись більше про мене">
+    <meta name="title" content="Моє портфоліо" />
+    <meta
+      name="description"
+      content="Тут ви можете ознайомитись з моїми роботами та дізнатись більше про мене"
+    />
 
     <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://metatags.io/">
-    <meta property="og:title" content="Моє портфоліо">
-    <meta property="og:description" content="Тут ви можете ознайомитись з моїми роботами та дізнатись більше про мене">
-    <meta property="og:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta property="og:title" content="Моє портфоліо" />
+    <meta
+      property="og:description"
+      content="Тут ви можете ознайомитись з моїми роботами та дізнатись більше про мене"
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
 
     <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://metatags.io/">
-    <meta property="twitter:title" content="Моє портфоліо">
-    <meta property="twitter:description" content="Тут ви можете ознайомитись з моїми роботами та дізнатись більше про мене">
-    <meta property="twitter:image" content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta property="twitter:title" content="Моє портфоліо" />
+    <meta
+      property="twitter:description"
+      content="Тут ви можете ознайомитись з моїми роботами та дізнатись більше про мене"
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png"
+    />
 
     <!-- Favicon  -->
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/favicon//apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/favicon//apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/favicon//apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/favicon//apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="icons/favicon//apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="icons/favicon//apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="icons/favicon//apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="icons/favicon//apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="icons/favicon//apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="icons/favicon//android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon//favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon//favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon//favicon-16x16.png">
-    <link rel="manifest" href="icons/favicon//manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="icons/favicon//ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="icons/favicon//apple-icon-57x57.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="60x60"
+      href="icons/favicon//apple-icon-60x60.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="72x72"
+      href="icons/favicon//apple-icon-72x72.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="icons/favicon//apple-icon-76x76.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="114x114"
+      href="icons/favicon//apple-icon-114x114.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="120x120"
+      href="icons/favicon//apple-icon-120x120.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="144x144"
+      href="icons/favicon//apple-icon-144x144.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="icons/favicon//apple-icon-152x152.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/favicon//apple-icon-180x180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="192x192"
+      href="icons/favicon//android-icon-192x192.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon//favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="96x96"
+      href="icons/favicon//favicon-96x96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon//favicon-16x16.png"
+    />
+    <link rel="manifest" href="icons/favicon//manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta
+      name="msapplication-TileImage"
+      content="icons/favicon//ms-icon-144x144.png"
+    />
+    <meta name="theme-color" content="#ffffff" />
 
-    <link rel="stylesheet" href="css/style.min.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
     <div class="menu">
-        <div class="menu__list">
-            <div class="menu__close">
-                <svg width="29" height="30" viewBox="0 0 29 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z" fill="black"/>
-                </svg>                    
-            </div>
-            <nav class="menu__nav">
-                <ul>
-                    <li class="menu__link"><a href="#">Про мене</a></li>
-                    <li class="menu__link"><a href="#">Мій досвід</a></li>
-                    <li class="menu__link"><a href="#">Мої навики</a></li>
-                    <li class="menu__link"><a href="#">Мої роботи</a></li>
-                    <li class="menu__link"><a href="#">Прайс-лист</a></li>
-                    <li class="menu__link"><a href="#">Контакти</a></li>
-                </ul>
-            </nav>
-            <div class="menu__social">
-                <a href="#">
-                    <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z" fill="#212121"/>
-                    </svg>
-                </a>
-                <a href="#">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M-6.01032e-07 6.25L-2.73196e-07 13.75C-1.22337e-07 17.2012 2.79875 20 6.25 20L13.75 20C17.2013 20 20 17.2012 20 13.75L20 6.25C20 2.79875 17.2012 -7.51891e-07 13.75 -6.01032e-07L6.25 -2.73196e-07C2.79875 -1.22337e-07 -7.51891e-07 2.79875 -6.01032e-07 6.25ZM13.75 1.875C16.1625 1.875 18.125 3.8375 18.125 6.25L18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125L6.25 18.125C3.8375 18.125 1.875 16.1625 1.875 13.75L1.875 6.25C1.875 3.8375 3.8375 1.875 6.25 1.875L13.75 1.875Z" fill="black"/>
-                        <path d="M5 10C5 12.7612 7.23875 15 10 15C12.7613 15 15 12.7612 15 10C15 7.23875 12.7612 5 10 5C7.23875 5 5 7.23875 5 10ZM13.125 10C13.125 11.7225 11.7225 13.125 10 13.125C8.27625 13.125 6.875 11.7225 6.875 10C6.875 8.2775 8.27625 6.875 10 6.875C11.7225 6.875 13.125 8.2775 13.125 10Z" fill="black"/>
-                        <path d="M5.29123 4.625C5.29123 4.25704 4.99295 3.95875 4.62499 3.95875C4.25703 3.95875 3.95874 4.25704 3.95874 4.625C3.95874 4.99296 4.25703 5.29125 4.62499 5.29125C4.99295 5.29125 5.29123 4.99296 5.29123 4.625Z" fill="black"/>
-                    </svg>
-                </a>
-                <a href="#">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M-7.46167e-07 2.92969L-1.28061e-07 17.0703C-5.74539e-08 18.6856 1.31439 20 2.92969 20L17.0703 20C18.6856 20 20 18.6856 20 17.0703L20 11.1719L12.9297 11.1719L12.9297 13.5156L9.41406 13.5156L9.41406 11.1719L7.03125 11.1719C5.09262 11.1719 3.51562 9.59488 3.51562 7.65625L3.51562 4.10156L7.03125 4.10156L7.03125 7.65625L9.41406 7.65625L9.41406 4.10156L12.9297 4.6875L12.9297 7.65625L20 7.65625L20 2.92969C20 1.31439 18.6856 -8.16774e-07 17.0703 -7.46167e-07L2.92969 -1.28061e-07C1.31439 -5.74539e-08 -8.16774e-07 1.31439 -7.46167e-07 2.92969Z" fill="black"/>
-                    </svg>                        
-                </a>
-            </div>
+      <div class="menu__list">
+        <div class="menu__close">
+          <svg
+            width="29"
+            height="30"
+            viewBox="0 0 29 30"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M17.1568 14.5231L28.4489 3.23075C29.1837 2.49623 29.1837 1.30861 28.4489 0.574085C27.7144 -0.160437 26.5267 -0.160437 25.7922 0.574085L14.4998 11.8665L3.20781 0.574085C2.47295 -0.160437 1.28567 -0.160437 0.551149 0.574085C-0.183716 1.30861 -0.183716 2.49623 0.551149 3.23075L11.8432 14.5231L0.551149 25.8155C-0.183716 26.55 -0.183716 27.7376 0.551149 28.4721C0.917206 28.8385 1.39852 29.0226 1.87948 29.0226C2.36045 29.0226 2.84141 28.8385 3.20781 28.4721L14.4998 17.1798L25.7922 28.4721C26.1586 28.8385 26.6396 29.0226 27.1205 29.0226C27.6015 29.0226 28.0825 28.8385 28.4489 28.4721C29.1837 27.7376 29.1837 26.55 28.4489 25.8155L17.1568 14.5231Z"
+              fill="black"
+            />
+          </svg>
         </div>
-        
-        <div class="menu__overlay"></div>
+        <nav class="menu__nav">
+          <ul>
+            <li class="menu__link"><a href="#about">Про мене</a></li>
+            <li class="menu__link"><a href="#exp">Мій досвід</a></li>
+            <li class="menu__link"><a href="#skills">Мої навики</a></li>
+            <li class="menu__link"><a href="#portfolio">Мої роботи</a></li>
+            <li class="menu__link"><a href="#price">Прайс-лист</a></li>
+            <li class="menu__link"><a href="#contacts">Контакти</a></li>
+          </ul>
+        </nav>
+        <div class="menu__social">
+          <a href="#">
+            <svg
+              width="19"
+              height="20"
+              viewBox="0 0 19 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z"
+                fill="#212121"
+              />
+            </svg>
+          </a>
+          <a href="#">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M-6.01032e-07 6.25L-2.73196e-07 13.75C-1.22337e-07 17.2012 2.79875 20 6.25 20L13.75 20C17.2013 20 20 17.2012 20 13.75L20 6.25C20 2.79875 17.2012 -7.51891e-07 13.75 -6.01032e-07L6.25 -2.73196e-07C2.79875 -1.22337e-07 -7.51891e-07 2.79875 -6.01032e-07 6.25ZM13.75 1.875C16.1625 1.875 18.125 3.8375 18.125 6.25L18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125L6.25 18.125C3.8375 18.125 1.875 16.1625 1.875 13.75L1.875 6.25C1.875 3.8375 3.8375 1.875 6.25 1.875L13.75 1.875Z"
+                fill="black"
+              />
+              <path
+                d="M5 10C5 12.7612 7.23875 15 10 15C12.7613 15 15 12.7612 15 10C15 7.23875 12.7612 5 10 5C7.23875 5 5 7.23875 5 10ZM13.125 10C13.125 11.7225 11.7225 13.125 10 13.125C8.27625 13.125 6.875 11.7225 6.875 10C6.875 8.2775 8.27625 6.875 10 6.875C11.7225 6.875 13.125 8.2775 13.125 10Z"
+                fill="black"
+              />
+              <path
+                d="M5.29123 4.625C5.29123 4.25704 4.99295 3.95875 4.62499 3.95875C4.25703 3.95875 3.95874 4.25704 3.95874 4.625C3.95874 4.99296 4.25703 5.29125 4.62499 5.29125C4.99295 5.29125 5.29123 4.99296 5.29123 4.625Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+          <a href="#">
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M-7.46167e-07 2.92969L-1.28061e-07 17.0703C-5.74539e-08 18.6856 1.31439 20 2.92969 20L17.0703 20C18.6856 20 20 18.6856 20 17.0703L20 11.1719L12.9297 11.1719L12.9297 13.5156L9.41406 13.5156L9.41406 11.1719L7.03125 11.1719C5.09262 11.1719 3.51562 9.59488 3.51562 7.65625L3.51562 4.10156L7.03125 4.10156L7.03125 7.65625L9.41406 7.65625L9.41406 4.10156L12.9297 4.6875L12.9297 7.65625L20 7.65625L20 2.92969C20 1.31439 18.6856 -8.16774e-07 17.0703 -7.46167e-07L2.92969 -1.28061e-07C1.31439 -5.74539e-08 -8.16774e-07 1.31439 -7.46167e-07 2.92969Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="menu__overlay"></div>
     </div>
 
     <aside class="aside">
-        <div class="aside__text"><span>Соціальні мережі</span></div>
-        <div class="aside__line"></div>
-        <div class="aside-social">
-            <a href="#" class="aside-social__icon">
-                <svg width="19" height="20" viewBox="0 0 19 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z" fill="#212121"/>
-                </svg>
-            </a>
-            <a href="#" class="aside-social__icon">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M-6.01032e-07 6.25L-2.73196e-07 13.75C-1.22337e-07 17.2012 2.79875 20 6.25 20L13.75 20C17.2013 20 20 17.2012 20 13.75L20 6.25C20 2.79875 17.2012 -7.51891e-07 13.75 -6.01032e-07L6.25 -2.73196e-07C2.79875 -1.22337e-07 -7.51891e-07 2.79875 -6.01032e-07 6.25ZM13.75 1.875C16.1625 1.875 18.125 3.8375 18.125 6.25L18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125L6.25 18.125C3.8375 18.125 1.875 16.1625 1.875 13.75L1.875 6.25C1.875 3.8375 3.8375 1.875 6.25 1.875L13.75 1.875Z" fill="black"/>
-                    <path d="M5 10C5 12.7612 7.23875 15 10 15C12.7613 15 15 12.7612 15 10C15 7.23875 12.7612 5 10 5C7.23875 5 5 7.23875 5 10ZM13.125 10C13.125 11.7225 11.7225 13.125 10 13.125C8.27625 13.125 6.875 11.7225 6.875 10C6.875 8.2775 8.27625 6.875 10 6.875C11.7225 6.875 13.125 8.2775 13.125 10Z" fill="black"/>
-                    <path d="M5.29123 4.625C5.29123 4.25704 4.99295 3.95875 4.62499 3.95875C4.25703 3.95875 3.95874 4.25704 3.95874 4.625C3.95874 4.99296 4.25703 5.29125 4.62499 5.29125C4.99295 5.29125 5.29123 4.99296 5.29123 4.625Z" fill="black"/>
-                </svg>
-            </a>
-            <a href="#" class="aside-social__icon">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M-7.46167e-07 2.92969L-1.28061e-07 17.0703C-5.74539e-08 18.6856 1.31439 20 2.92969 20L17.0703 20C18.6856 20 20 18.6856 20 17.0703L20 11.1719L12.9297 11.1719L12.9297 13.5156L9.41406 13.5156L9.41406 11.1719L7.03125 11.1719C5.09262 11.1719 3.51562 9.59488 3.51562 7.65625L3.51562 4.10156L7.03125 4.10156L7.03125 7.65625L9.41406 7.65625L9.41406 4.10156L12.9297 4.6875L12.9297 7.65625L20 7.65625L20 2.92969C20 1.31439 18.6856 -8.16774e-07 17.0703 -7.46167e-07L2.92969 -1.28061e-07C1.31439 -5.74539e-08 -8.16774e-07 1.31439 -7.46167e-07 2.92969Z" fill="black"/>
-                </svg> 
-            </a>
-        </div>
+      <div class="aside__text"><span>Соціальні мережі</span></div>
+      <div class="aside__line"></div>
+      <div class="aside-social">
+        <a href="#" class="aside-social__icon">
+          <svg
+            width="19"
+            height="20"
+            viewBox="0 0 19 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M-4.37114e-07 9.99951C-1.95608e-07 15.5245 4.36167 19.9995 9.74107 19.9995C14.0457 19.9995 17.6962 17.1345 18.9832 13.162C19.0749 12.662 18.7734 12.4787 18.5148 12.4787C18.2835 12.4787 17.6706 12.487 16.8585 12.4912C17.4459 15.2728 15.5517 15.8595 15.5517 15.8595C14.4274 16.3145 14.1267 16.972 14.1267 16.972C13.5228 17.8778 13.5352 16.902 13.5352 16.902C13.603 15.8978 14.5389 15.3703 14.5389 15.3703C16.0283 14.4787 15.5979 13.0295 15.3493 12.4578C14.719 12.3678 14.2903 12.1103 14.0466 11.8245C13.8029 14.0453 12.9652 16.3795 9.23304 16.3795C8.16988 16.3795 7.30085 15.992 6.61933 15.3503C6.37316 15.4628 5.3827 15.8003 4.04116 15.2628C4.04116 15.2628 3.78012 14.4253 5.03988 12.5128C4.82345 11.7128 4.71606 10.8628 4.7111 10.0128C4.71606 9.16284 4.82345 8.31285 5.03988 7.51284C3.78012 5.61285 4.04116 4.77535 4.04116 4.77535C5.3827 4.23785 6.37316 4.57534 6.61933 4.67535C7.30085 4.03785 8.16988 3.65035 9.23304 3.65035C12.9752 3.65035 13.7987 5.98784 14.0383 8.21284C14.3307 7.86284 14.928 7.53784 15.8408 7.53784C17.1444 7.53784 18.1918 7.55034 18.5082 7.55034C18.7635 7.55034 19.0683 7.37534 18.9708 6.86284C17.692 2.86201 14.0391 -0.000488895 9.74107 -0.000488707C4.36167 -0.000488472 -6.7851e-07 4.47701 -4.37114e-07 9.99951Z"
+              fill="#212121"
+            />
+          </svg>
+        </a>
+        <a href="#" class="aside-social__icon">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M-6.01032e-07 6.25L-2.73196e-07 13.75C-1.22337e-07 17.2012 2.79875 20 6.25 20L13.75 20C17.2013 20 20 17.2012 20 13.75L20 6.25C20 2.79875 17.2012 -7.51891e-07 13.75 -6.01032e-07L6.25 -2.73196e-07C2.79875 -1.22337e-07 -7.51891e-07 2.79875 -6.01032e-07 6.25ZM13.75 1.875C16.1625 1.875 18.125 3.8375 18.125 6.25L18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125L6.25 18.125C3.8375 18.125 1.875 16.1625 1.875 13.75L1.875 6.25C1.875 3.8375 3.8375 1.875 6.25 1.875L13.75 1.875Z"
+              fill="black"
+            />
+            <path
+              d="M5 10C5 12.7612 7.23875 15 10 15C12.7613 15 15 12.7612 15 10C15 7.23875 12.7612 5 10 5C7.23875 5 5 7.23875 5 10ZM13.125 10C13.125 11.7225 11.7225 13.125 10 13.125C8.27625 13.125 6.875 11.7225 6.875 10C6.875 8.2775 8.27625 6.875 10 6.875C11.7225 6.875 13.125 8.2775 13.125 10Z"
+              fill="black"
+            />
+            <path
+              d="M5.29123 4.625C5.29123 4.25704 4.99295 3.95875 4.62499 3.95875C4.25703 3.95875 3.95874 4.25704 3.95874 4.625C3.95874 4.99296 4.25703 5.29125 4.62499 5.29125C4.99295 5.29125 5.29123 4.99296 5.29123 4.625Z"
+              fill="black"
+            />
+          </svg>
+        </a>
+        <a href="#" class="aside-social__icon">
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M-7.46167e-07 2.92969L-1.28061e-07 17.0703C-5.74539e-08 18.6856 1.31439 20 2.92969 20L17.0703 20C18.6856 20 20 18.6856 20 17.0703L20 11.1719L12.9297 11.1719L12.9297 13.5156L9.41406 13.5156L9.41406 11.1719L7.03125 11.1719C5.09262 11.1719 3.51562 9.59488 3.51562 7.65625L3.51562 4.10156L7.03125 4.10156L7.03125 7.65625L9.41406 7.65625L9.41406 4.10156L12.9297 4.6875L12.9297 7.65625L20 7.65625L20 2.92969C20 1.31439 18.6856 -8.16774e-07 17.0703 -7.46167e-07L2.92969 -1.28061e-07C1.31439 -5.74539e-08 -8.16774e-07 1.31439 -7.46167e-07 2.92969Z"
+              fill="black"
+            />
+          </svg>
+        </a>
+      </div>
     </aside>
     <section class="promo">
-        <div class="hamburger">
-            <span class="hamburger__line"></span>
-            <span class="hamburger__line hamburger__line_longer"></span>
-            <span class="hamburger__line"></span>
+      <div class="hamburger">
+        <span class="hamburger__line"></span>
+        <span class="hamburger__line hamburger__line_longer"></span>
+        <span class="hamburger__line"></span>
+      </div>
+      <div class="container">
+        <div
+          class="promo__subtitle title title_fz16 title_round"
+          data-aos="fade-up"
+        >
+          Мене звати Олександра Мельник
         </div>
-        <div class="container">
-            <div class="promo__subtitle title title_fz16 title_round">Мене звати Олександра Сміт</div>
-            <h1 class="promo__title title title_fz48">Я дизайнер з Івано-Франківська</h1>
-            <div class="promo__links">
-                <a href="#" class="btn promo__link">Портфоліо</a>
-                <a href="#" class="promo__link">Про мене</a>
-            </div>
+        <h1 class="promo__title title title_fz48" data-aos="fade-up">
+          Я дизайнер з Івано-Франківська
+        </h1>
+        <div class="promo__links">
+          <a href="#portfolio" class="btn promo__link" data-aos="fade-up"
+            >Портфоліо</a
+          >
+          <a href="#about" class="promo__link" data-aos="fade-up">Про мене</a>
         </div>
+      </div>
     </section>
-    <section class="about">
-        <div class="container">
-            <div class="about__wrapper">
-                <div class="about__photo">
-                    <img src="img/main_photo.jpg" alt="Oleksandra_photo">
-                </div>
-                <div class="about__info">
-                    <h2 class="about__title title title_fz16 title_round">Про мене</h2>
-                    <div class="about__subtitle title title_fz36">Мене звати Олександра</div>
-                    <div class="devider"></div>
-                    <div class="about__descr">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
-                    </div>
-                </div>
-                <div class="about__cards">
-                    <div class="about-cards__item">
-                        <div class="about-cards__item-icon icon-round">
-                            <img src="icons/about_me/web_development.svg" alt="web-development">
-                        </div>
-                        <div class="about-cards__item-descr">
-                            <h3>Web-дизайн</h3>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                        </div>
-                    </div>
-                    <div class="about-cards__item">
-                        <div class="about-cards__item-icon icon-round">
-                            <img src="icons/about_me/mobile_dev.svg" alt="mobile-dev">
-                        </div>
-                        <div class="about-cards__item-descr">
-                            <h3>Дизайн застосунків</h3>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                        </div>
-                    </div>
-                    <div class="about-cards__item">
-                        <div class="about-cards__item-icon icon-round">
-                            <img src="icons/about_me/design.svg" alt="design">
-                        </div>
-                        <div class="about-cards__item-descr">
-                            <h3>UI/UX Design</h3>
-                            <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
-                        </div>
-                    </div>
-                </div>
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about__wrapper">
+          <div class="about__photo" data-aos="fade-up">
+            <img src="img/main_photo.jpg" alt="Oleksandra_photo" />
+          </div>
+          <div class="about__info">
+            <h2
+              class="about__title title title_fz16 title_round"
+              data-aos="fade-up"
+            >
+              Про мене
+            </h2>
+            <div class="about__subtitle title title_fz36" data-aos="fade-up">
+              Мене звати Олександра
             </div>
+            <div class="devider" data-aos="fade-up"></div>
+            <div class="about__descr" data-aos="fade-up">
+              Я веб-дизайнер з двома роками досвіду. Я спеціалізуюсь на
+              створенні унікальних, привабливих та функціональних вебсайтів,
+              використовуючи такі інструменти, як Figma, Sketch, Zeplin та
+              ZBrush. Мій досвід роботи з різноманітними проектами дозволив мені
+              розвинути навички у дизайні інтерфейсів, розробці прототипів та
+              співпраці з розробниками. Я завжди прагну досягти найвищих
+              стандартів якості, дотримуючись дедлайнів та враховуючи всі деталі
+            </div>
+          </div>
+          <div class="about__cards">
+            <div class="about-cards__item" data-aos="fade-up">
+              <div class="about-cards__item-icon icon-round">
+                <img
+                  src="icons/about_me/web_development.svg"
+                  alt="web-development"
+                />
+              </div>
+              <div class="about-cards__item-descr">
+                <h3>Web-дизайн</h3>
+                <div>
+                  Розробка унікальних концепцій інтерфейсів та вміння точно
+                  втілювати їх завдяки моїм навичкам у Figma та Sketch
+                  дозволяють мені ефективно відповідати на будь-які веб-дизайн
+                  виклики.
+                </div>
+              </div>
+            </div>
+            <div class="about-cards__item" data-aos="fade-up">
+              <div class="about-cards__item-icon icon-round">
+                <img src="icons/about_me/mobile_dev.svg" alt="mobile-dev" />
+              </div>
+              <div class="about-cards__item-descr">
+                <h3>Дизайн застосунків</h3>
+                <div>
+                  Мій досвід у розробці інтерфейсів дозволяє мені створювати
+                  зручні та естетично привабливі дизайни, які допомагають
+                  користувачам легко взаємодіяти з додатками.
+                </div>
+              </div>
+            </div>
+            <div class="about-cards__item" data-aos="fade-up">
+              <div class="about-cards__item-icon icon-round">
+                <img src="icons/about_me/design.svg" alt="design" />
+              </div>
+              <div class="about-cards__item-descr">
+                <h3>UI/UX Design</h3>
+                <div>
+                  Застосування сучасних інструментів та методологій дозволяє
+                  мені розробляти продукти, які не лише функціональні, але й
+                  естетично привабливі, сприяючи досягненню бізнес-цілей вашої
+                  компанії.
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
-    <section class="exp">
-        <div class="container">
-            <h2 class="exp__title title title_fz16 title_round title_center">Досвід</h2>
-            <div class="exp__subtitle title title_fz36 title_center">Чим я буду корисна</div>
-            <div class="devider"></div>
-            <div class="exp__wrapper">
-                <div class="exp-column">
-                    <h3 class="exp-column__title">Освіта</h3>
-                    <ul class="exp-column__list">
-                        <li class="exp-column__item">
-                            <div class="exp-column__item-header">
-                                <div class="exp-column__item-icon icon-round">
-                                    <img src="icons/experience/university.svg" alt="university">
-                                </div>
-                                <div>
-                                    <h4>ІФТУНГ</h4>
-                                    <div>Диплом магістра | Івано-Франківськ (2014-2020)</div>
-                                </div>
-                            </div>
-                            <div class="exp-column__item-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
-                            </div>
-                        </li>
-                        <li class="exp-column__item">
-                            <div class="exp-column__item-header">
-                                <div class="exp-column__item-icon icon-round">
-                                    <img src="icons/experience/courses.svg" alt="courses">
-                                </div>
-                                <div>
-                                    <h4>Udemy</h4>
-                                    <div>Курси Web-дизайну</div>
-                                </div>
-                            </div>
-                            <div class="exp-column__item-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                <div class="exp-column">
-                    <h3 class="exp-column__title">Досвід роботи</h3>
-                    <ul class="exp-column__list">
-                        <li class="exp-column__item">
-                            <div class="exp-column__item-header">
-                                <div class="exp-column__item-icon icon-round">
-                                    <img src="icons/experience/developer.svg" alt="developer">
-                                </div>
-                                <div>
-                                    <h4>Web Designer</h4>
-                                    <div>EPAM | Львів (2018-2019)</div>
-                                </div>
-                            </div>
-                            <div class="exp-column__item-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
-                            </div>
-                        </li>
-                        <li class="exp-column__item">
-                            <div class="exp-column__item-header">
-                                <div class="exp-column__item-icon icon-round">
-                                    <img src="icons/experience/designer.svg" alt="designer">
-                                </div>
-                                <div>
-                                    <h4>UI/UX Designer</h4>
-                                    <div>Squad Team | Львів (2018)</div>
-                                </div>
-                            </div>
-                            <div class="exp-column__item-body">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmo. 
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <section class="exp" id="exp">
+      <div class="container">
+        <h2
+          class="exp__title title title_fz16 title_round title_center"
+          data-aos="fade-up"
+        >
+          Досвід
+        </h2>
+        <div
+          class="exp__subtitle title title_fz36 title_center"
+          data-aos="fade-up"
+        >
+          Чим я буду корисна
         </div>
-    </section>
-    <section class="skills">
-        <div class="container">
-            <h2 class="skills__title title title_fz16 title_round title_center">Навики</h2>
-            <div class="skills__subtitle title title_fz36 title_center">Що я використовую в роботі</div>
-            <div class="devider"></div>
-            <div class="skills__wrapper">
-                <div class="skills__item">
-                    <img src="icons/skills/html5.svg" alt="icon-html" class="skills-item__img">
-                    <div class="skills-item__subtitle">HTML5</div>
-                    <p class="skills-item__text">
-                        Саме він створює каркас вашого сайту або програми, а п'ята версія дозволить мені створювати більш SEO-оптимізовану структуру вашого продукту
-                    </p>
+        <div class="devider" data-aos="fade-up"></div>
+        <div class="exp__wrapper">
+          <div class="exp-column">
+            <h3 class="exp-column__title" data-aos="fade-up">Освіта</h3>
+            <ul class="exp-column__list" data-aos="fade-up">
+              <li class="exp-column__item" data-aos="fade-up">
+                <div class="exp-column__item-header">
+                  <div class="exp-column__item-icon icon-round">
+                    <img
+                      src="icons/experience/university.svg"
+                      alt="university"
+                    />
+                  </div>
+                  <div>
+                    <h4>ІФТУНГ</h4>
+                    <div>Диплом магістра | Івано-Франківськ (2014-2020)</div>
+                  </div>
                 </div>
-                <div class="skills__item">
-                    <div class="skills-item__img">
-                        <img src="icons/skills/css3.svg" alt="icon-css">
-                    </div>
-                    <div class="skills-item__subtitle">CSS3</div>
-                    <p class="skills-item__text">Ця мова стилів дозволяє мені створювати абсолютно будь-який зовнішній вигляд вашого сайту або програми. Все обмежується лише вашою фантазією!</p>
+                <div class="exp-column__item-body">
+                  Маючи вищу освіту, я можу глибше розуміти теоретичні аспекти
+                  дизайну і використовувати ці знання для створення більш
+                  інтелектуальних інновацій у своїй практичній діяльності.
                 </div>
-                <div class="skills__item">
-                    <div class="skills-item__img">
-                        <img src="icons/skills/js.svg" alt="icon-js" class="skills-item__img">
-                    </div>
-                    <div class="skills-item__subtitle">Java Script</div>
-                    <p class="skills-item__text">Ця мова програмування дозволяє оживити все, що завгодно: слайдери, вікна, підказки, вкладки, отримання даних від сервера та багато іншого</p>
+              </li>
+              <li class="exp-column__item" data-aos="fade-up">
+                <div class="exp-column__item-header">
+                  <div class="exp-column__item-icon icon-round">
+                    <img src="icons/experience/courses.svg" alt="courses" />
+                  </div>
+                  <div>
+                    <h4>Udemy</h4>
+                    <div>Курси Web-дизайну</div>
+                  </div>
                 </div>
-                <div class="skills__item">
-                    <div class="skills-item__img">
-                        <img src="icons/skills/jquery.svg" alt="icon-Jquery">
-                    </div>
-                    <div class="skills-item__subtitle">Jquery</div>
-                    <p class="skills-item__text">Бібліотека Jquery дозволить прискорити розробку. Без необхідності інтегрувати в проект ми її не будемо, але звичка роботи з нею присутня</p>
+                <div class="exp-column__item-body">
+                  Пройшовши курси, я отримав практичні навички і новітні знання,
+                  що дозволяють мені ефективно застосовувати сучасні техніки та
+                  методи у своїй дизайнерській практиці.
                 </div>
-                <div class="skills__item">
-                    <div class="skills-item__img">
-                        <img src="icons/skills/react.svg" alt="icon-react">
-                    </div>
-                    <div class="skills-item__subtitle">React</div>
-                    <p class="skills-item__text">Ця бібліотека дозволяє створювати веб-додатки. Ми можемо створити максимально інтерактивний продукт саме під ваші цілі</p>
+              </li>
+            </ul>
+          </div>
+          <div class="exp-column">
+            <h3 class="exp-column__title" data-aos="fade-up">Досвід роботи</h3>
+            <ul class="exp-column__list" data-aos="fade-up">
+              <li class="exp-column__item" data-aos="fade-up">
+                <div class="exp-column__item-header">
+                  <div class="exp-column__item-icon icon-round">
+                    <img src="icons/experience/developer.svg" alt="developer" />
+                  </div>
+                  <div>
+                    <h4>Web Designer</h4>
+                    <div>EPAM | Львів (2018-2019)</div>
+                  </div>
                 </div>
-                <div class="skills__item">
-                    <div class="skills-item__img">
-                        <img src="icons/skills/node.js.svg" alt="icon-node">
-                    </div>
-                    <div class="skills-item__subtitle">Node.js</div>
-                    <p class="skills-item__text">Ця платформа дозволяє створювати бекенд для вашого продукту - "мозки", які виконуватимуть дії, які користувач не бачить</p>
+                <div class="exp-column__item-body">
+                  Досвід роботи в компанії EPAM поглибив мої знання у сфері
+                  веб-дизайну та UX/UI, надав можливість працювати над великими
+                  проєктами та збільшити мою експертизу в адаптивному дизайні та
+                  взаємодії з клієнтами.
                 </div>
-                <div class="skills__item">
-                    <div class="skills-item__img">
-                        <img src="icons/skills/mongo.db.svg" alt="icon-mongo">
-                    </div>
-                    <div class="skills-item__subtitle">Mongo.db</div>
-                    <p class="skills-item__text">Це нереляційна база даних, яка зберігатиме дані вашого сайту або програми</p>
+              </li>
+              <li class="exp-column__item" data-aos="fade-up">
+                <div class="exp-column__item-header">
+                  <div class="exp-column__item-icon icon-round">
+                    <img src="icons/experience/designer.svg" alt="designer" />
+                  </div>
+                  <div>
+                    <h4>UI/UX Designer</h4>
+                    <div>Squad Team | Львів (2018)</div>
+                  </div>
                 </div>
-            </div>
-            <div class="skills__profit">
-                <div class="skills-card">
-                    <h4 class="skills-card__title title_round">Створення сайтів</h4>
-                    <div class="skills-card__num">100%</div>
-                    <div class="skills-card__line">
-                        <div class="skills-card__line_full" style="width: 100%"></div>
-                    </div>
+                <div class="exp-column__item-body">
+                  Досвід роботи в Squad Team збагатив мої знання і навички у
+                  колективній розробці продукту, підвищив мою ефективність у
+                  співпраці з іншими спеціалістами та розвинув мої комунікаційні
+                  вміння для досягнення спільних цілей.
                 </div>
-                <div class="skills-card">
-                    <h4 class="skills-card__title title_round">Створення застосунків</h4>
-                    <div class="skills-card__num">85%</div>
-                    <div class="skills-card__line">
-                        <div class="skills-card__line_full"></div>
-                    </div>
-                </div>
-                <div class="skills-card">
-                    <h4 class="skills-card__title title_round">Робота з данними</h4>
-                    <div class="skills-card__num">90%</div>
-                    <div class="skills-card__line">
-                        <div class="skills-card__line_full"></div>
-                    </div>
-                </div>
-                <div class="skills-card">
-                    <h4 class="skills-card__title title_round">Креативність</h4>
-                    <div class="skills-card__num">75%</div>
-                    <div class="skills-card__line">
-                        <div class="skills-card__line_full"></div>
-                    </div>
-                </div>
-                <div class="skills-card">
-                    <h4 class="skills-card__title title_round">Створення дизайну</h4>
-                    <div class="skills-card__num">95%</div>
-                    <div class="skills-card__line">
-                        <div class="skills-card__line_full"></div>
-                    </div>
-                </div>
-                <div class="skills-card">
-                    <h4 class="skills-card__title title_round">Soft skills</h4>
-                    <div class="skills-card__num">95%</div>
-                    <div class="skills-card__line">
-                        <div class="skills-card__line_full" style="width: 95%"></div>
-                    </div>
-                </div>
-            </div>
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </section>
-    <section class="portfolio">
-        <div class="container">
-            <h2 class="skills__title title title_fz16 title_round title_center">Портфоліо</h2>
-            <div class="skills__subtitle title title_fz36 title_center">Мої роботи</div>
-            <div class="devider"></div>
-            <div class="portfolio__wrapper">
-                <a href="#" class="portfolio__item">
-                    <img src="img/works/uber.jpg" alt="uber">
-                </a>
-                <a href="#" class="portfolio__item">
-                    <img src="img/works/pulse.jpg" alt="pulse">
-                </a>
-                <a href="#" class="portfolio__item">
-                    <img src="img/works/bread.jpg" alt="bread">
-                </a>
-                <a href="#" class="portfolio__item portfolio__item_vertical">
-                    <img src="img/works/plans.jpg" alt="plans">
-                </a>
-                <a href="#" class="portfolio__item">
-                    <img src="img/works/ipad.jpg" alt="ipad">
-                </a>
-                <a href="#" class="portfolio__item portfolio__item_horizontal">
-                    <img src="img/works/mac.jpg" alt="mac">
-                </a>
-            </div>
+    <section class="skills" id="skills">
+      <div class="container">
+        <h2
+          class="skills__title title title_fz16 title_round title_center"
+          data-aos="fade-up"
+        >
+          Навики
+        </h2>
+        <div
+          class="skills__subtitle title title_fz36 title_center"
+          data-aos="fade-up"
+        >
+          Що я використовую в роботі
         </div>
-    </section>
-    <section class="price">
-        <div class="container">
-            <h2 class="skills__title title title_fz16 title_round title_center">Прайс-лист</h2>
-            <div class="devider"></div>
-            <div class="price__wrapper">
-                <div class="price__item">
-                    <div class="price__item-name">Landing-page</div>
-                    <div class="price__item-num">від 8000 грн.</div>
-                    <div class="price__item-descr">Односторінковий сайт для презентації товарів та послуг</div>
-                </div>
-                <div class="price__item">
-                    <div class="price__item-name">Корпоративний сайт</div>
-                    <div class="price__item-num">від 20000 грн.</div>
-                    <div class="price__item-descr">Сайт для вашого бізнесу або компанії</div>
-                </div>
-                <div class="price__item">
-                    <div class="price__item-name">Web-застосунок</div>
-                    <div class="price__item-num">від 28000 грн.</div>
-                    <div class="price__item-descr">Додаток всередині браузера для вашого комфорту</div>
-                </div>
-                <div class="price__item">
-                    <div class="price__item-name">Android/IOS Застосунок</div>
-                    <div class="price__item-num">від 25000 грн.</div>
-                    <div class="price__item-descr">Застосунок для смартфону будь-якої ОС</div>
-                </div>
-                <div class="price__item">
-                    <div class="price__item-name">Інтернет-магазин</div>
-                    <div class="price__item-num">від 30000 грн.</div>
-                    <div class="price__item-descr">Інструмент для вашої торгівлі</div>
-                </div>
-                <div class="price__item">
-                    <div class="price__item-name">Дизайн</div>
-                    <div class="price__item-num">Індивідуально</div>
-                    <div class="price__item-descr">Створю дизайн для вашого сайту/застосунку...</div>
-                </div>
+        <div class="devider" data-aos="fade-up"></div>
+        <div class="skills__wrapper">
+          <div class="skills__item" data-aos="fade-up">
+            <img
+              src="icons/skills/photoshop.png"
+              alt="icon-photoshop"
+              class="skills-item__img"
+              data-aos="fade-up"
+            />
+            <div class="skills-item__subtitle" data-aos="fade-up">
+              Adobe Photoshop
             </div>
-        </div>
-    </section>
-    <section class="contacts">
-        <div class="container">
-            <div class="contacts__wrapper">
-                <div class="contacts__photo">
-                    <img src="img/main_photo.jpg" alt="Oleksandra_photo">
-                </div>
-                <div class="contacts__info">
-                    <h2 class="contacts__title title title_fz16 title_round">Контакти</h2>
-                    <div class="contacts__subtitle title title_fz36">Зв'яжіться зі мною</div>
-                    <div class="devider"></div>
-                    <div class="contacts__text">Будь яким зручним для вас способом:</div>
-                    <div class="contacts__social">
-                        <a href="#" class="contacts__social-item">
-                            <img src="icons/social-footer/Facebook.svg" alt="facebook-icon">
-                        </a>
-                        <a href="#" class="contacts__social-item">
-                            <img src="icons/social-footer/Telegram.svg" alt="telegram-icon">
-                        </a>
-                        <a href="#" class="contacts__social-item">
-                            <img src="icons/social-footer/Instagram.svg" alt="instagram-icon">
-                        </a>
-                    </div>
-                    <div class="contacts__text">Або залиште ваші дані і я сама вам напишу:</div>
-                    <form action="" class="contacts__form">
-                        <div class="contacts__input">
-                            <input id="name" name="name" type="text" required>
-                            <label class="label" for="name">Ваше ім'я:</label>
-                        </div>
-                        <div class="contacts__input mt_15">
-                            <input id="email" name="email" type="email" required>
-                            <label class="label" for="email">Ваша пошта:</label>
-                        </div>
-                        <div class="contacts__textarea">
-                            <textarea name="message" id="message" required></textarea>
-                            <label class="label" for="message">Ваше повідомлення:</label>
-                        </div>
-                        <div class="contacts__btn">
-                            <button class="btn contacts__submit" type="submit">Відправити повідомлення</button>
-                            <div class="contacts__policy">
-                                <input type="checkbox" required>
-                                <div>Я згідний(а) з
-                                    <a href="/policy.html" target="_blank">політикою конфіденційності</a>
-                                </div>
-                            </div>
-                        </div>
-                    </form>
-                </div>
+            <p class="skills-item__text" data-aos="fade-up">
+              Фотошоп важливий для мене, оскільки дозволяє створювати і
+              редагувати графічний контент, що включає фотографії, і відображати
+              ідеї з більшою чіткістю та креативністю. Він є невід'ємною
+              частиною мого процесу створення візуальних матеріалів для проєктів
+              і комунікації з клієнтами.
+            </p>
+          </div>
+          <div class="skills__item" data-aos="fade-up">
+            <div class="skills-item__img" data-aos="fade-up">
+              <img src="icons/skills/illustrator.png" alt="icon-illustrator" />
             </div>
+            <div class="skills-item__subtitle" data-aos="fade-up">
+              Adobe Illustrator
+            </div>
+            <p class="skills-item__text" data-aos="fade-up">
+              Ілюстратор дозволяє створювати векторні зображення і графічні
+              елементи, що використовуються для дизайну логотипів, ілюстрацій та
+              інших візуальних матеріалів з високою роздільною здатністю і
+              легкістю масштабування.
+            </p>
+          </div>
+          <div class="skills__item" data-aos="fade-up">
+            <div class="skills-item__img" data-aos="fade-up">
+              <img
+                src="icons/skills/Adobe_After_Effects_CC_icon.svg.png"
+                alt="icon-after-effects"
+                class="skills-item__img"
+              />
+            </div>
+            <div class="skills-item__subtitle" data-aos="fade-up">
+              Adobe After Effects
+            </div>
+            <p class="skills-item__text" data-aos="fade-up">
+              За допомогою After Effects я можу створювати анімаційні ефекти,
+              спеціальні візуальні ефекти та редагувати відео, що підвищує
+              візуальну привабливість та професіоналізм вмісту, який я створюю.
+            </p>
+          </div>
+          <div class="skills__item" data-aos="fade-up">
+            <div class="skills-item__img" data-aos="fade-up">
+              <img src="icons/skills/figma.png" alt="icon-figma" />
+            </div>
+            <div class="skills-item__subtitle" data-aos="fade-up">Figma</div>
+            <p class="skills-item__text" data-aos="fade-up">
+              Figma є незамінним інструментом для дизайнера, оскільки дозволяє
+              безперешкодно співпрацювати з командою та клієнтами в реальному
+              часі, забезпечуючи плавний та ефективний процес дизайну. Її
+              потужний набір функцій допомагає точно втілювати ідеї та
+              концепції, зберігаючи послідовність, високу якість та адаптивність
+              дизайну.
+            </p>
+          </div>
+          <div class="skills__item" data-aos="fade-up">
+            <div class="skills-item__img" data-aos="fade-up">
+              <img src="icons/skills/sketch.png" alt="icon-sketch" />
+            </div>
+            <div class="skills-item__subtitle" data-aos="fade-up">Sketch</div>
+            <p class="skills-item__text" data-aos="fade-up">
+              Використовуючи Sketch, я легко створюю і редагую високоякісні
+              макети та прототипи. Його потужний набір функцій допомагає мені
+              точно втілювати ідеї та концепції, зберігаючи послідовність і
+              високу якість дизайну, що значно спрощує процеси від розробки до
+              фінальної реалізації.
+            </p>
+          </div>
+          <div class="skills__item" data-aos="fade-up">
+            <div class="skills-item__img" data-aos="fade-up">
+              <img src="icons/skills/zeplin.jpg" alt="icon-zeplin" />
+            </div>
+            <div class="skills-item__subtitle" data-aos="fade-up">Zeplin</div>
+            <p class="skills-item__text" data-aos="fade-up">
+              За допомогою Zeplin, я легко передаю дизайн до розробників,
+              забезпечуючи точне відтворення макетів. Його потужний набір
+              функцій дозволяє зберігати всі деталі дизайну та специфікації, що
+              значно полегшує процес спільної роботи і підвищує ефективність
+              команди.
+            </p>
+          </div>
+          <div class="skills__item" data-aos="fade-up">
+            <div class="skills-item__img" data-aos="fade-up">
+              <img src="icons/skills/zbrush.png" alt="icon-zbrush" />
+            </div>
+            <div class="skills-item__subtitle" data-aos="fade-up">Z-brush</div>
+            <p class="skills-item__text" data-aos="fade-up">
+              ZBrush допомагає мені легко створювати деталізовані 3D-моделі та
+              скульптури. Його потужний набір інструментів дозволяє мені точно
+              втілювати свої ідеї, зберігаючи високий рівень деталізації та
+              якості, що значно покращує кінцевий результат роботи.
+            </p>
+          </div>
         </div>
+        <div class="skills__profit">
+          <div class="skills-card" data-aos="fade-up">
+            <h4 class="skills-card__title title_round" data-aos="fade-up">
+              Створення сайтів
+            </h4>
+            <div class="skills-card__num" data-aos="fade-up">100%</div>
+            <div class="skills-card__line" data-aos="fade-up">
+              <div class="skills-card__line_full" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="skills-card" data-aos="fade-up">
+            <h4 class="skills-card__title title_round" data-aos="fade-up">
+              Створення застосунків
+            </h4>
+            <div class="skills-card__num" data-aos="fade-up">85%</div>
+            <div class="skills-card__line" data-aos="fade-up">
+              <div class="skills-card__line_full"></div>
+            </div>
+          </div>
+          <div class="skills-card" data-aos="fade-up">
+            <h4 class="skills-card__title title_round" data-aos="fade-up">
+              Робота з данними
+            </h4>
+            <div class="skills-card__num" data-aos="fade-up">90%</div>
+            <div class="skills-card__line" data-aos="fade-up">
+              <div class="skills-card__line_full"></div>
+            </div>
+          </div>
+          <div class="skills-card" data-aos="fade-up">
+            <h4 class="skills-card__title title_round" data-aos="fade-up">
+              Креативність
+            </h4>
+            <div class="skills-card__num" data-aos="fade-up">75%</div>
+            <div class="skills-card__line" data-aos="fade-up">
+              <div class="skills-card__line_full"></div>
+            </div>
+          </div>
+          <div class="skills-card" data-aos="fade-up">
+            <h4 class="skills-card__title title_round" data-aos="fade-up">
+              Створення дизайну
+            </h4>
+            <div class="skills-card__num" data-aos="fade-up">95%</div>
+            <div class="skills-card__line" data-aos="fade-up">
+              <div class="skills-card__line_full"></div>
+            </div>
+          </div>
+          <div class="skills-card" data-aos="fade-up">
+            <h4 class="skills-card__title title_round" data-aos="fade-up">
+              Soft skills
+            </h4>
+            <div class="skills-card__num" data-aos="fade-up">95%</div>
+            <div class="skills-card__line" data-aos="fade-up">
+              <div class="skills-card__line_full" style="width: 95%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2
+          class="skills__title title title_fz16 title_round title_center"
+          data-aos="fade-up"
+        >
+          Портфоліо
+        </h2>
+        <div
+          class="skills__subtitle title title_fz36 title_center"
+          data-aos="fade-up"
+        >
+          Мої роботи
+        </div>
+        <div class="devider" data-aos="fade-up"></div>
+        <div class="portfolio__wrapper">
+          <a href="#" class="portfolio__item" data-aos="fade-up">
+            <img src="img/works/uber.jpg" alt="uber" />
+          </a>
+          <a href="#" class="portfolio__item" data-aos="fade-up">
+            <img src="img/works/pulse.jpg" alt="pulse" />
+          </a>
+          <a href="#" class="portfolio__item" data-aos="fade-up">
+            <img src="img/works/bread.jpg" alt="bread" />
+          </a>
+          <a
+            href="#"
+            class="portfolio__item portfolio__item_vertical"
+            data-aos="fade-up"
+          >
+            <img src="img/works/plans.jpg" alt="plans" />
+          </a>
+          <a href="#" class="portfolio__item" data-aos="fade-up">
+            <img src="img/works/ipad.jpg" alt="ipad" />
+          </a>
+          <a
+            href="#"
+            class="portfolio__item portfolio__item_horizontal"
+            data-aos="fade-up"
+          >
+            <img src="img/works/mac.jpg" alt="mac" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="price" id="price">
+      <div class="container">
+        <h2
+          class="skills__title title title_fz16 title_round title_center"
+          data-aos="fade-up"
+        >
+          Прайс-лист
+        </h2>
+        <div class="devider" data-aos="fade-up"></div>
+        <div class="price__wrapper" data-aos="fade-up">
+          <div class="price__item" data-aos="fade-up">
+            <div class="price__item-name">Landing-page</div>
+            <div class="price__item-num">від 8000 грн.</div>
+            <div class="price__item-descr">
+              Односторінковий сайт для презентації товарів та послуг
+            </div>
+          </div>
+          <div class="price__item" data-aos="fade-up">
+            <div class="price__item-name">Корпоративний сайт</div>
+            <div class="price__item-num">від 20000 грн.</div>
+            <div class="price__item-descr">
+              Сайт для вашого бізнесу або компанії
+            </div>
+          </div>
+          <div class="price__item" data-aos="fade-up">
+            <div class="price__item-name">Web-застосунок</div>
+            <div class="price__item-num">від 28000 грн.</div>
+            <div class="price__item-descr">
+              Додаток всередині браузера для вашого комфорту
+            </div>
+          </div>
+          <div class="price__item" data-aos="fade-up">
+            <div class="price__item-name">Android/IOS Застосунок</div>
+            <div class="price__item-num">від 25000 грн.</div>
+            <div class="price__item-descr">
+              Застосунок для смартфону будь-якої ОС
+            </div>
+          </div>
+          <div class="price__item" data-aos="fade-up">
+            <div class="price__item-name">Інтернет-магазин</div>
+            <div class="price__item-num">від 30000 грн.</div>
+            <div class="price__item-descr">Інструмент для вашої торгівлі</div>
+          </div>
+          <div class="price__item" data-aos="fade-up">
+            <div class="price__item-name">Дизайн</div>
+            <div class="price__item-num">Індивідуально</div>
+            <div class="price__item-descr">
+              Створю дизайн для вашого сайту/застосунку...
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts" id="contacts">
+      <div class="container">
+        <div class="contacts__wrapper" data-aos="fade-up">
+          <div class="contacts__photo" data-aos="fade-up">
+            <img src="img/main_photo.jpg" alt="Oleksandra_photo" />
+          </div>
+          <div class="contacts__info">
+            <h2
+              class="contacts__title title title_fz16 title_round"
+              data-aos="fade-up"
+            >
+              Контакти
+            </h2>
+            <div class="contacts__subtitle title title_fz36" data-aos="fade-up">
+              Зв'яжіться зі мною
+            </div>
+            <div class="devider" data-aos="fade-up"></div>
+            <div class="contacts__text" data-aos="fade-up">
+              Будь яким зручним для вас способом:
+            </div>
+            <div class="contacts__social">
+              <a href="#" class="contacts__social-item" data-aos="fade-up">
+                <img
+                  src="icons/social-footer/Facebook.svg"
+                  alt="facebook-icon"
+                />
+              </a>
+              <a href="#" class="contacts__social-item" data-aos="fade-up">
+                <img
+                  src="icons/social-footer/Telegram.svg"
+                  alt="telegram-icon"
+                />
+              </a>
+              <a href="#" class="contacts__social-item" data-aos="fade-up">
+                <img
+                  src="icons/social-footer/Instagram.svg"
+                  alt="instagram-icon"
+                />
+              </a>
+            </div>
+            <div class="contacts__text" data-aos="fade-up">
+              Або залиште ваші дані і я сама вам напишу:
+            </div>
+            <form action="" class="contacts__form" data-aos="fade-up">
+              <div class="contacts__input" data-aos="fade-up">
+                <input id="name" name="name" type="text" required />
+                <label class="label" for="name">Ваше ім'я:</label>
+              </div>
+              <div class="contacts__input mt_15" data-aos="fade-up">
+                <input id="email" name="email" type="email" required />
+                <label class="label" for="email">Ваша пошта:</label>
+              </div>
+              <div class="contacts__textarea" data-aos="fade-up">
+                <textarea name="message" id="message" required></textarea>
+                <label class="label" for="message">Ваше повідомлення:</label>
+              </div>
+              <div class="contacts__btn" data-aos="fade-up">
+                <button class="btn contacts__submit" type="submit">
+                  Відправити повідомлення
+                </button>
+                <div class="contacts__policy">
+                  <input type="checkbox" required />
+                  <div>
+                    Я згідний(а) з
+                    <a href="/policy.html" target="_blank"
+                      >політикою конфіденційності</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="js/script.js"></script>
-</body>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>
